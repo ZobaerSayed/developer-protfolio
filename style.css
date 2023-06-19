@@ -1,9 +1,35 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-#name{
+
+#name {
     color: cadetblue;
+}
+
+section {
+    display: flex;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 60%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: aqua;
+    font-size: 700;
+    background-color: tomato;
+    background-image: linear-gradien (tomato, red);
+    padding: 10px 40px;
+    border-radius: 5px;
 }
